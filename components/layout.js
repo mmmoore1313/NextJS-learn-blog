@@ -4,7 +4,10 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/Link'
 
-export default function Layout({ children }) {
+const name = 'Matt Moore'
+export const siteTitle = 'Next.js Sample Website'
+
+export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
