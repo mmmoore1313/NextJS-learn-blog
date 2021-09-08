@@ -59,7 +59,9 @@ export default function Layout({ children }) {
           </>
         )}
       </header>
-      {children}
+      <main>
+        {children}
+      </main>
     </div>
   )
 }
